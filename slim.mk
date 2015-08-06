@@ -8,9 +8,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/slim/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/asus/Z008/device.mk)
+$(call inherit-product, device/asus/z008/device.mk)
 
-DEVICE_PACKAGE_OVERLAYS += device/asus/Z008/overlay
+DEVICE_PACKAGE_OVERLAYS += device/asus/z008/overlay
 
 PRODUCT_RUNTIMES := runtime_libart_default
 
